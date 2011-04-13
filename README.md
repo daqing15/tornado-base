@@ -2,7 +2,7 @@ tornado-base - a base structure for a tornado app.
 ===================================================
 
 A basic structure for any Tornado app. Does not intend to provide any defaults or starting points. That is,
-all files are empty and up to you on how to fill them. Not intended for distribution yet, since I haven't yet used it on a real project. Soon :)
+all files are empty and it's up to you on how to fill them. Not intended for distribution yet, since I haven't yet used it on a real project. Soon :)
 
 ## Structure
 
@@ -55,6 +55,11 @@ Pip requirements. Includes the base requirements for Tornado (tornado 1.2.1 and 
 
 Your URL patterns.
 
+### env_setup.py
+
+This file is imported at the top of boot.py so that the PYTHONPATH is setup correctly when the app launches.
+
 ### boot.py
 
 Your Tornado app launch code.
+
