@@ -1,9 +1,7 @@
-##################################################### 
-# Creates an empty local config file.               #
-# Includes dev, test, prod environments.            #
-#                                                   #
-# Author: Alex Michael                              #
-#####################################################
+############################################ 
+# Creates an empty local config file.      #
+# Includes dev, test, prod environments.   #
+############################################
 
 def create_local_config():
     f = open("config.local", 'w')
