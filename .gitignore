@@ -39,6 +39,5 @@ config.local
 # User specific files #
 # Files that you created in your local version #
 # and do not want them to go into version control. #
-# Should happen rarely. #
 ####################################################
 

@@ -39,6 +39,10 @@ can be used for the base template files like base.html (which will be extended b
 
 Your unit tests. Includes a run_tests.py file to run all the tests.
 
+### supervisor/
+
+Should you wish to run your processes with supervisor.
+
 ### .gitignore
 
 Any stuff you want to ignore from being versioned.
